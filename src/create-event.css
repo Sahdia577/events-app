@@ -1,0 +1,93 @@
+/*========================================
+Stylings for the form in <CreateEvent />
+==========================================*/
+
+/*=================================
+Adding style to form input elements
+===================================*/
+.description {
+    width: 350px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    border-radius:50% 20% / 10% 40%;
+    margin-bottom: 10px;
+    border: 4px dashed #43035c;
+}
+
+ .title, 
+ .url,
+ .location,
+ .userId,
+ .category,
+ .when
+ {
+    width: 600px;
+    height: 35px;
+    padding: 20px;
+    text-align: center;
+    border-radius:50% 20% / 10% 40%;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    border: 3px solid #43035c;
+}
+
+/*=====================================
+Changing various input element widths.
+=======================================*/
+.title {
+    width: 400px;
+}
+
+.location {
+    width: 450px;
+}
+
+.when {
+    width: 250px;
+}
+
+.userId, 
+.category {
+    width: 300px;
+    height: 45px;
+    padding: 3px;
+}
+
+/*=====================
+Styling submit button
+=======================*/
+.button {
+    background-color: #FFF;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    border-radius:50% 20% / 10% 40%;
+    color: #000;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.button:hover{
+    border: 3px outset #43035c;
+}
+
+/*=============================
+Adding background-pattern 
+===============================*/
+.new-event {
+    background-color: #606688;
+    opacity: 0.8;
+    background-image:  
+    linear-gradient(#606688 2.8000000000000003px, transparent 2.8000000000000003px), 
+    linear-gradient(90deg, #606688 2.8000000000000003px, transparent 2.8000000000000003px), 
+    linear-gradient(#606688 1.4000000000000001px, transparent 1.4000000000000001px), 
+    linear-gradient(90deg, #606688 1.4000000000000001px, #e5e5f7 1.4000000000000001px);
+    background-size: 70px 70px, 70px 70px, 14px 14px, 14px 14px;
+    background-position: -2.8000000000000003px -2.8000000000000003px, 
+    -2.8000000000000003px -2.8000000000000003px, 
+    -1.4000000000000001px -1.4000000000000001px, 
+    -1.4000000000000001px -1.4000000000000001px;
+}

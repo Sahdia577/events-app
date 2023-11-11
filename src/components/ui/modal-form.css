@@ -1,0 +1,35 @@
+.mform {
+    display:flex;
+    flex-direction: column;
+    color: #FFF;
+}
+
+#mtitle,
+#mdescription,
+#mimage,
+#mlocation,
+#mstart-time, 
+#mend-time,
+#mcategory
+ {
+    border-radius: 5px;
+    color:#606688;
+    padding: 4px;
+}
+
+#mdescription {
+    width: 300px;
+}
+
+#mimage {
+    width: 350px;
+}
+
+#mstart-time,
+#mend-time {
+    width: 200px;
+}
+
+#mcategory {
+    width: 150px;
+}
